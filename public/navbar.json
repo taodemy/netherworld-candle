@@ -1,0 +1,19 @@
+{
+    "navbarList": [
+        {
+            "id": 1,
+            "name": "About",
+            "link": "/About"
+        },
+        {
+            "id": 2,
+            "name": "Projects",
+            "link": "/Projects"
+        },
+        {
+            "id": 3,
+            "name": "Contact",
+            "link": "/Contact"
+        }
+    ]
+}
