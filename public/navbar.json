@@ -2,23 +2,23 @@
   "navbarItems": [
     {
       "id": 1,
-      "name": "Home",
-      "link": "/"
-    },
-    {
-      "id": 2,
       "name": "About",
       "link": "/About"
     },
     {
+      "id": 2,
+      "name": "News",
+      "link": "/News"
+    },
+    {
       "id": 3,
-      "name": "Projects",
-      "link": "/Projects"
+      "name": "Community",
+      "link": "/Community"
     },
     {
       "id": 4,
-      "name": "Contact",
-      "link": "/Contact"
+      "name": "Store",
+      "link": "/Store"
     }
   ]
 }
