@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Button gap="gap-2" items="items-center" justify="justify-center">
+      <Button gap="gap-2" items="items-center" justify="justify-center" disabled={true}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
