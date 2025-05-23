@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { useEffect, useState } from "react";
+import Button from "./Button/Button";
 
 type NavbarItem = {
   id: number;
@@ -24,11 +24,18 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav>
-      <ul>
+    <nav className="bg-[#211d15]">
+      <ul className="flex items-center justify-center gap-4">
         {navbarItems.map((item) => (
           <li key={item.id}>
-            <Link href={item.link}>{item.name}</Link>
+            <Button
+              sizes="lg"
+              cursor="cursor-pointer"
+              variants="link"
+              radius="rounded-sm"
+            >
+              {item.name}
+            </Button>
           </li>
         ))}
       </ul>
