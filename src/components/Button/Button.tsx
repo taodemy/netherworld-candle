@@ -13,27 +13,26 @@ interface ButtonProps {
   cursor?: "cursor-pointer" | "cursor-progress" | "cursor-not-allowed";
   sizes?: "xs" | "sm" | "md" | "lg" | "xl";
   variants?: "solid" | "outline" | "ghost" | "link";
-  // icon?: React.ReactNode;
   bgColor?: string;
   color?: string;
   disabled?: true | false;
   radius?:
-    | "rounded-none"
-    | "rounded-xs"
-    | "rounded-sm"
-    | "rounded-md"
-    | "rounded-lg"
-    | "rounded-xl"
-    | "rounded-2xl"
-    | "rounded-3xl"
-    | "rounded-4xl"
-    | "rounded-full";
+  | "rounded-none"
+  | "rounded-xs"
+  | "rounded-sm"
+  | "rounded-md"
+  | "rounded-lg"
+  | "rounded-xl"
+  | "rounded-2xl"
+  | "rounded-3xl"
+  | "rounded-4xl"
+  | "rounded-full";
 }
 
 const Button: React.FC<ButtonProps> = ({
   children,
   onClick,
-  cursor,
+  cursor = 'cursor-pointer',
   sizes = "md",
   variants = "solid",
   bgColor,
